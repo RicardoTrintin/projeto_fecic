@@ -55,6 +55,10 @@ flutter:
     - images/sanduiche.webp
     - images/ifsul1.jpg
     - images/ifsul2.jpg
+    - images/ifsul3.jpg
+    - images/ifsul4.png
+    - images/ifsul5.png
+    - images/ifsul6.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
