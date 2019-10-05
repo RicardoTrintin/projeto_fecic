@@ -52,7 +52,7 @@ class _HomeScreenLoguinState extends State<HomeScreenLoguin> {
                     child: Container(
                       color: Colors.green,
                       child: Text(
-                        'Loguin',
+                        'Login',
                         style: TextStyle(
                             height: 2,
                             color: Colors.white,
@@ -66,6 +66,16 @@ class _HomeScreenLoguinState extends State<HomeScreenLoguin> {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SecondScreen()));
               },
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'Cadastre-se',
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w300,
+                  color: Colors.black54),
             ),
             SizedBox(
               height: 40,
